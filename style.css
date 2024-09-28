@@ -43,4 +43,34 @@ nav h3{
 .hero{
     display: grid;
     grid-template-columns: 30% 30%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(16,144,203, 0.1);
+    
+}
+
+.hero p{
+    margin: 1rem 0;
+}
+
+.hero button:first-child{
+    background-color: var(--lightblue);
+    border: none;
+    padding: 0.4rem;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.hero button:last-child{
+    border: solid 1px var(--lightblue);
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+}
+
+
+
+
+
+.hero img{
+    width: 100%;
 }
